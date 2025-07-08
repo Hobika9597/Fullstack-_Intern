@@ -1,0 +1,113 @@
+.login-container {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 32px 24px 32px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.login-container h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-field {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 2px;
+}
+
+.input-field:focus {
+  border-color: #e77600;
+  outline: none;
+}
+
+.login-button {
+  padding: 10px 0;
+  font-size: 17px;
+  background-color: #ffd814;
+  color: #111;
+  border: 1px solid #fcd200;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 10px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  transition: background 0.2s;
+}
+
+.login-button:hover {
+  background-color: #f7ca00;
+}
+
+.login-container p {
+  font-size: 14px;
+  color: #c40000;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0; /* Space between input fields */
+}
+
+.input-field {
+  margin-bottom: 24px;
+  padding: 10px 32px; /* Keep height small, increase width */
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login-button {
+  padding: 12px 32px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  max-width: 500px;
+  align-self: center;
+  margin-top: 8px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles from UserSignup.css can be added here for consistency */

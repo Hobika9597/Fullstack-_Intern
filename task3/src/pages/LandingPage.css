@@ -1,0 +1,52 @@
+.landing-content {
+  padding: 20px;
+  max-width: max-content;
+  margin: auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-image: url("../images/background.jpg"); /* Add a background image */
+  background-size: cover;
+  color: #fff; /* Change text color for better contrast */
+}
+
+h1 {
+  color: #1b1717;
+}
+
+h2 {
+  color: #dcd6d6;
+}
+
+p {
+  color: #998f8f;
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.feature-card {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 200px; /* Responsive card size */
+  color: #fff;
+}
+
+.cta-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
